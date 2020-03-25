@@ -3,7 +3,6 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "install":"npm install  @angular/cli",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
@@ -12,7 +11,8 @@
     "e2e": "ng e2e"
   },
   "private": true,
-  "dependencies": {
+  "dependencies": 
+    "@angular/cli": "^9.0.7",
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",
     "@angular/compiler": "^5.2.0",
